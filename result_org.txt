@@ -1,0 +1,19 @@
+cbench: controller benchmarking tool
+   running in mode 'throughput'
+   connecting to controller at localhost:6653 
+   faking 1 switches :: 10 tests each; 10000 ms per test
+   with 100000 unique source MACs per switch
+   starting test with 1000 ms delay after features_reply
+   ignoring first 1 "warmup" and last 0 "cooldown" loops
+   debugging info is off
+1   switches: fmods/sec:  991   total = 0.099045 per ms 
+1   switches: fmods/sec:  706   total = 0.070593 per ms 
+1   switches: fmods/sec:  693   total = 0.069238 per ms 
+1   switches: fmods/sec:  665   total = 0.066493 per ms 
+1   switches: fmods/sec:  688   total = 0.068782 per ms 
+1   switches: fmods/sec:  820   total = 0.081987 per ms 
+1   switches: fmods/sec:  686   total = 0.068567 per ms 
+1   switches: fmods/sec:  691   total = 0.069085 per ms 
+1   switches: fmods/sec:  662   total = 0.066122 per ms 
+1   switches: fmods/sec:  632   total = 0.063098 per ms 
+RESULT: 1 switches 9 tests min/max/avg/stdev = 63.10/81.99/69.33/4.94 responses/s
